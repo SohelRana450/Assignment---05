@@ -20,7 +20,7 @@ let coinNumber = 100;
         })
     })
 getElement("heart").addEventListener("click",function(e){
-    if(e.target.className.includes("btn-form") && ){
+    if(e.target.className.includes("btn-form")){
         const button = e.target
         const productItem = button.parentNode.parentNode.children[1].children[0].innerText
         
