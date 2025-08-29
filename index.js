@@ -32,7 +32,7 @@ getElement("heart").addEventListener("click",function(e){
         newCart.innerHTML =`
         <div class="flex bg-[#f5fff6] justify-between items-center md:py-3 mt-3 p-3 rounded-xl">
                 <div>
-                    <h2 class="font-bold md:text-[15px] text-xl">${productItem}</h2>
+                    <h2 class="font-bold md:text-[15px] text-base">${productItem}</h2>
                     <p class="font-bold md:text-sm text-lg text-[#5C5C5C]">${listItem2}</p>
                 </div>
                 <div>
